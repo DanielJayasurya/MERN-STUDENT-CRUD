@@ -10,7 +10,7 @@
 ### Installation
 
 # Clone the repository
-git clone https://github.com/yourusername/your-repo.git](https://github.com/DanielJayasurya/MERN-STUDENT-CRUD.git
+git clone https://github.com/DanielJayasurya/MERN-STUDENT-CRUD.git
 
 # Navigate to the project folder
 cd MERN-STUDENT-CRUD
