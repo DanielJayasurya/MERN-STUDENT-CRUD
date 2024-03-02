@@ -50,31 +50,31 @@ const ReportsModel = ({ open, onClose, reportData, getReports }) => {
   const validateForm = () => {
     const errors = {};
 
-    if (!english.trim()) {
+    if (!english) {
       errors.english = "English is required";
     } else if (parseInt(english, 10) > 100) {
       errors.english = "English value must be 100 or less";
     }
 
-    if (!tamil.trim()) {
+    if (!tamil) {
       errors.tamil = "Tamil is required";
     } else if (parseInt(tamil, 10) > 100) {
       errors.tamil = "Tamil value must be 100 or less";
     }
 
-    if (!maths.trim()) {
+    if (!maths) {
       errors.maths = "Maths is required";
     } else if (parseInt(maths, 10) > 100) {
       errors.maths = "Maths value must be 100 or less";
     }
 
-    if (!science.trim()) {
+    if (!science) {
       errors.science = "Science is required";
     } else if (parseInt(science, 10) > 100) {
       errors.science = "Science value must be 100 or less";
     }
 
-    if (!social.trim()) {
+    if (!social) {
       errors.social = "Social is required";
     } else if (parseInt(social, 10) > 100) {
       errors.social = "Social value must be 100 or less";
